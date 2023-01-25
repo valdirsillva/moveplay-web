@@ -1,0 +1,30 @@
+.comments {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 1rem 0;
+}
+
+.comments img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.commentInfo .contentComment p {
+    font-size: 1.24rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.commentInfo .contentComment {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentComment span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}

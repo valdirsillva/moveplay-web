@@ -1,0 +1,149 @@
+/* html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 30px 0 50px;
+} */
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+
+    color: #fff;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 1.24rem 0 1.9rem;
+}
+
+span {
+    font-size: .9rem;
+}
+
+.wrapperContent {
+    width: 500px;
+    height: 600px;
+    position: relative;
+    margin: 6% auto;
+    overflow: hidden;
+}
+
+.loginText {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    background: #242326;
+    top: -410px;
+    box-sizing: border-box;
+    padding: 6%;
+    transition: all 0.5s ease-in-out;
+    z-index: 11;
+}
+
+.text {
+    display: none;
+    transition: all 0.5s ease-in-out;
+    transition-delay: 0.3s;
+}
+
+.text h1 {
+    margin-bottom: 10%;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    outline: none;
+}
+
+.btnLogin {
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnLogin:hover {
+    filter: brightness(0.7);
+    transition: 1s ease-out;
+}
+
+.field {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.field input {
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 30px;
+    background: #18181b;
+}
+
+.btnSignup {
+    margin-left: 30px;
+    border: 1px solid transparent;
+    background: transparent;
+    text-decoration: none;
+}
+
+.btnSignup:hover {
+    border: 1px solid #fff;
+}
+
+.btnSignup,
+.btnLogin {
+    padding: 14px 16px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btnLogin {
+    background: #f3703c;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btnSignup {
+    border: 1px solid #aaa8a8;
+}
+
+/* .arrow {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #c74a1b;
+    border: 2px solid #fff;
+
+    bottom: -30px;
+    left: 370px;
+    outline: none;
+    cursor: pointer;
+    z-index: 11;
+
+    transition-property: box-shadow, transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+} */
+
+.showHide {
+    display: block;
+}
+
+.contentExpand {
+    transform: translateY(410px);
+}

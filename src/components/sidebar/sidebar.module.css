@@ -1,0 +1,53 @@
+.movie {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    padding: 0 0 10px;
+}
+
+.thumbnail video {
+    width: 190px;
+    height: 111px;
+    border-radius: 10px;
+    background: #24241f;
+
+    position: absolute;
+    z-index: -1;
+}
+
+.thumbnail button {
+    border: 0;
+    background-image: url(/public/play.png);
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 10px;
+    /* position: absolute; */
+    display: flex;
+    width: 190px;
+    height: 111px;
+    justify-content: center;
+    /* align-items: center; */
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+
+.thumbnail button svg {
+    position: relative;
+    z-index: -1;
+}
+
+.detailsVideo {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+
+    width: 11rem;
+}
+
+.authorName {
+    text-transform: uppercase;
+    margin-top: 1rem;
+    color: #ad13df;
+}

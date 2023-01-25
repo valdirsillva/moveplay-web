@@ -1,0 +1,145 @@
+.appHeader {
+    height: 80px;
+    border-bottom: 1px solid #f7f7f72f;
+
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo svg {
+    width: 100%;
+    height: 90px;
+    fill: #cd0c0c;
+}
+
+.box {
+    width: 590px;
+}
+
+.formSearch input {
+    width: 100%;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    border: 1px solid #545454;
+    background: #2e2c2c;
+    border-radius: 45px;
+}
+
+.notification {
+    display: flex;
+    right: 30px;
+}
+
+.bell {
+    cursor: pointer;
+}
+
+.notificationCounter {
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: #cd0c0c;
+}
+
+.modalAdd {
+    display: flex;
+    gap: 20px;
+}
+
+.buttonOnPlus {
+    cursor: pointer;
+}
+
+/* .buttonOnPlus, */
+.popoverbox {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 10%;
+    right: 5%;
+    z-index: 1;
+    -webkit-box-shadow: 1px 2px 9px 3px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    width: 461px;
+    height: auto;
+    overflow: auto;
+    min-height: 640px;
+    background: #212121fa;
+}
+
+
+.popoverbox.activate,
+.popoverbox div {
+    display: flex;
+}
+
+.noneNotification,
+.popoverbox {
+    display: flex;
+}
+
+.actived {
+    display: none;
+    width: 0;
+}
+
+.notificationHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.notificationHeader span {
+    font-size: 1.24rem;
+    font-weight: 600;
+    color: #6e6e75;
+    padding: 20px 30px;
+}
+
+.onClosed button {
+    border: 0;
+    background: transparent;
+    padding: 20px 10px;
+}
+
+.onClosed button span {
+    font-size: 2.4rem;
+    cursor: pointer;
+    color: #6e6e75;
+}
+
+.noneNotification {}
+
+.notificationIsEmpty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    font-size: 1.24rem;
+    font-weight: 600;
+    color: #6e6e75;
+}
+
+.notificationIsEmpty svg {
+    width: 100px;
+    height: 100px;
+    fill: #6e6e75;
+}

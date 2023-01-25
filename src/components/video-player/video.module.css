@@ -1,0 +1,111 @@
+.video {
+    width: 900px;
+    margin: 2rem 0 0 2rem;
+}
+
+.video .frameVideo {
+    width: 100%;
+}
+
+.videoDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.videoDetails .title {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.title span {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.items {
+    display: flex;
+    gap: 50px;
+}
+
+.videoDetails .items {
+    color: white;
+}
+
+/* list video css */
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.listVideo {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+    margin: 1.6rem 0;
+    z-index: 0;
+}
+
+.countComments,
+.countLikes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.playCircle {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 50%;
+    cursor: pointer;
+}
+
+.playCircle:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.descriptionDetails {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+    padding: 25px 0;
+    border-top: 1px solid #f7f7f72f;
+}
+
+.flexAuthors {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.flexAuthors img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.videoDescription {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 10px;
+}
+
+.videoDescription span {
+    font-size: 2rem;
+    font-weight: 600;
+}

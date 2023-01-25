@@ -1,0 +1,24 @@
+/* comments */
+/* comment */
+.comment {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.comment img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.comment div input {
+    width: 590px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border: 1px solid #545454;
+    background: #2e2c2c;
+    border-radius: 45px;
+}
